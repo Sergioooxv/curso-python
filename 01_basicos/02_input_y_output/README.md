@@ -62,6 +62,7 @@ Crea un programa que impirma un ticket de compra usando un solo `print()`. Debes
 Crea un programa para un grupo de amiogs. Debe pedir:
 1. El total de la cuenta del restaurante (puede tener decimales).
 2. Cuántos amigos son para pagar (número entero).
+
 Calcula cúanto debe pagar cada uno e imprime el resultado.
 
 ### 🔹 Ejercicio 5: Imprimiendo en Línea
