@@ -1,7 +1,7 @@
 # 🗣️ Lección 2: Input y Output (Entradas y Salidas)
 
 ¡Ya sabes guardar datos en variables! ahora aprenderás a hacer que tus programas sean interactivos: cómo perdirle información a un usuario a través del teclado (**Input**) y cómo mostrarle los resultados en la pantalla (**Output**).
----
+
 ## 📤 1. Output: Mostrar datos con `print()`
 La función `print()` pinta en la consola lo que le metas dentro. como vimos en la lección anterior, podemos pasarle varios datos separados por comas o usar la forma profesional: las **f-strings**.
 
