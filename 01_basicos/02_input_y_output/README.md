@@ -52,13 +52,17 @@ Recuerda que tienes la solución de cada ejercicio en su respectivo archivo, per
 Pide al usuario su nombre y su apellido usando dos funciones `input()` diferentes. Luego, muestra un único saludo en la consola usando `f-strings` que diga: "¡Hola [nombre] [apellido]! Que bueno tenerte aquí"
 
 ### 🔹 Ejercicio 2: La Máquina del tiempo
-Pide la edad y calcula cuántos años tendrá el usaurio en el futuro (¡Cuidado con los tipos!).
+Pide al usuario su edad por teclado. Calcula cuántos años tendrá dentro de exactamente 10 años y muéstralo en la consola. 
+⚠️ OJO: Recuerda transformar el dato del input para poder hacer mátematicas.
 
 ### 🔹 Ejercicio 3: Formateando Facturas
-Diseña una salida visual limpia usando saltos de líneas y tabuladores
+Crea un programa que impirma un ticket de compra usando un solo `print()`. Debes utilizar `\n` para los saltos de línea y `\t` para alinear los precios como si fuera una tabla.
 
 ### 🔹 Ejercicio 4: La cuenta del Restaurante
-Pide el total de una cuenta, el numero de amigos y calcula cuánto paga cada uno con decimales.
+Crea un programa para un grupo de amiogs. Debe pedir:
+1. El total de la cuenta del restaurante (puede tener decimales).
+2. Cuántos amigos son para pagar (número entero).
+Calcula cúanto debe pagar cada uno e imprime el resultado.
 
 ### 🔹 Ejercicio 5: Imprimiendo en Línea
-Juega con el parametro `end` para romper el comportamiento nativo del `print()`.
+Por defecto, cada `print()` escribe una línea diferente. Cada tres funciones `print()` seguidas que muestren las palabras "cargando", "datos" y "completado...", pero usando el parámetro `end` para forzar a que todo se muestre en una sola línea separado por espacios
