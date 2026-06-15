@@ -32,7 +32,7 @@ color = input("¿Cual es tu color favorito?")
 ### ⚠️ La Regla de oro de `input()` (¡Peligro!)
 
 **IMPORTANTE** Todo lo que el usuario escribe a través de `input()`, Python lo recibe SIEMPRE como un texto (str). Siempre.
-Si le pides su edad y el usuario escribe 25, Python guardará el texto "25". Si intentas hacer mátematicas con eso, el programa romperá.
+Si le pides su edad y el usuario escribe 25, Python guardará el texto "25". Si intentas hacer matemáticas con eso, el programa romperá.
 
 Para solucionarlo, debes envolver el `input()` dentro de una función de conversión (`int()` o `float()`). A esto se le llama anidación de funciones:
 
@@ -53,7 +53,7 @@ Pide al usuario su nombre y su apellido usando dos funciones `input()` diferente
 
 ### 🔹 Ejercicio 2: La Máquina del tiempo
 Pide al usuario su edad por teclado. Calcula cuántos años tendrá dentro de exactamente 10 años y muéstralo en la consola. 
-⚠️ OJO: Recuerda transformar el dato del input para poder hacer mátematicas.
+⚠️ OJO: Recuerda transformar el dato del input para poder hacer matemáticas.
 
 ### 🔹 Ejercicio 3: Formateando Facturas
 Crea un programa que impirma un ticket de compra usando un solo `print()`. Debes utilizar `\n` para los saltos de línea y `\t` para alinear los precios como si fuera una tabla.
