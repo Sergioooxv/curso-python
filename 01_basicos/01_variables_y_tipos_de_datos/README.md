@@ -58,18 +58,18 @@ estatura_entera = int(estatura) # Convierte a int truncando los decimales. Resul
 Abre tu IDE favorito y vamos a programar!!
 Recuerda que tienes la solución de cada ejercicio en su respectivo archivo, pero recomiendo que hagas y te peles con el código tu mismo vamos a programar.
 
-### Ejercicio 1: Mi tarjeta de Presentación
+### 🔹 Ejercicio 1: Mi tarjeta de Presentación
 Crea tres variables: una para tu `nombre`, otra para tu `edad` (debe ser un entero) y otra para tu `pais`. Luego, usa tres funciones `print()` diferentes para mostrar cada valor en la consola.
 
-### Ejercicio 2: El cambiazo de variables
+### 🔹 Ejercicio 2: El cambiazo de variables
 Declara una variable llamada `juguete_favorito` y asignale el texto `"Pelota"`. En la siguiente línea de codigo, cambia el valor de esa misma variable a `"Consola de videojuegos"`. Imprime la variable antes y después del cambio para ver cómo se actauliza la memoria.
 
-### Ejercicio 3: Investigando Tipos
+### 🔹 Ejercicio 3: Investigando Tipos
 Crea cuatro variables con los siguientes valores exactos: `100`, `12.5`, `"Python"` y `True`. Utiliza `print(type(...))` para mostrar en la consola de qué tipo exacto es cada una de las variables que has creado.
 
-### Ejercicio 4: Conversión de Estaturas
+### 🔹 Ejercicio 4: Conversión de Estaturas
 Declara una variable llamada `estatura_float`  con el valor `1.75` (un decimal). Crea una nueva variable llamada `estatura_int` que converta ese decimal a un núero entero usando la función `int()`. Imprime `estatura_int` y observa qué pasa con los decimales.
 
-### Ejercicio 5: El Contador incremental
+### 🔹 Ejercicio 5: El Contador incremental
 Crea una variable llamada `contador` con el valor inicial de `0`. Incrementa su valor en `1` (pista: `contador = contador +1`). Luego, vuelve a incrementarlo sumándole `5` más. Finalmente, multiplica su valor total por `2` e imprime el resultado final en la consola (debería darte `12`).
 
