@@ -78,8 +78,8 @@ curso-python/
 
 | Categoría | Estado |
 |-----------|--------|
-| 01 — Básicos | 🟡 En progreso |
-| 02 — Condicionales | ⬜ Pendiente |
+| 01 — Básicos | 🟢 Completo |
+| 02 — Condicionales | 🟡 En progreso |
 | 03 — Bucles | ⬜ Pendiente |
 | 04 — Funciones | ⬜ Pendiente |
 | 05 — Strings | ⬜ Pendiente |
