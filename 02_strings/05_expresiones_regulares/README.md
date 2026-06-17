@@ -1,5 +1,5 @@
 # 🔍 Lección 5: Expresiones Regulares (Regex) en Python
-Una **Expresión Regular** (o *Regex*) es una secuencia de caracteres que forma un **patrón de búsqueda**. Imagina que es un "busar y reemplazar" de Word, pero con esteroides. En lugar de buscar una palabra exacta, puedes buscar patrones como: "un número de 9 dígitos que empiece por 6", "un correo electrónico" o "una matrícula".
+Una **Expresión Regular** (o *Regex*) es una secuencia de caracteres que forma un **patrón de búsqueda**. Imagina que es un "buscar y reemplazar" de Word, pero con esteroides. En lugar de buscar una palabra exacta, puedes buscar patrones como: "un número de 9 dígitos que empiece por 6", "un correo electrónico" o "una matrícula".
 
 En Python, para usar Regex necesitamos importar el módulo nativo **`re`**.
 
