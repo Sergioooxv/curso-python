@@ -30,15 +30,15 @@ $$\text{variable}[\text{inicio} : \text{fin} : \text{paso}]$$
 Abre tu IDE favorito y vamos a programar!!
 Recuerda que tienes la solución de cada ejercicio en su respectivo archivo, pero recomiendo que hagas y te peles con el código tu mismo vamos a programar.
 
-### 🔹 Ejercicio 1:
+### 🔹 Ejercicio 1: Extracción de Caracteres Sueltos
 Dada la variable palabra = "PROGRAMACIÓN":
 1. Extrae e imprime la primera letra usando un índice positivo.
 2. Extra e imprime la primera letra usando un índice negativo.
-### 🔹 Ejercicio 2:
+### 🔹 Ejercicio 2: Recortando el Prefijo
 En tu tienda online, los productos tecnológicos empiezan siempre por el prefiojo "TEC-". Dado el siguiente código de barras en texto: "TEC-84729" Usa slicing para extraer ÚNICAMENTE las tres letras del prefijo (sin el guion) y muéstralo por pantalla.
-### 🔹 Ejercicio 3:
+### 🔹 Ejercicio 3: El Fragmento Oculto
 Tenemos la siguiente cadena de texto confidencial: "TOKEN_secret123_END". Necesitamos aislar el secreto central. Usa slicing con los índices correctos para extraer solo el texto "secret123" (sin los guiones bajos) e imprimelo.
-### 🔹 Ejercicio 4:
+### 🔹 Ejercicio 4: Saltos de Rana
 Dada la cadena de texto "A1B2C3D4E5", queremos deshacernos de los números y quedarnos solo con las letras ("ABCDE"). Aplica la fórmula del slicing usando el tercer parámetro (paso) para ir saltando los números e imprime el resultado limpito.
-### 🔹 Ejercicio 5:
+### 🔹 Ejercicio 5: El Espejo
 El Slicing en Python guarda un truco legendario para dar la vuelta a una palabra sin usar bucles. Dada la palabra "radar", usa el slicing inverso para guardarla del revés en una nueva variable. Imprime el resultado y comprueba si se lee igual (palíndromo).
