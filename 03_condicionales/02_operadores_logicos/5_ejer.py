@@ -13,3 +13,21 @@
 #   Pide los datos necesarios y monta una estructura condicional robusta para 
 #   autorizar o denegar el acceso.
 # //======================================================================
+
+
+usuario = input("LOGIN - INTRODUCE TU USUARIO: ")
+clave = input("LOGIN - INTRODUCE TU CLAVE: ")
+
+clave_estandar_valida = "pass123"
+
+ip_permitida = input("¿La IP de origien está en la lista blanca? (Si/No): ").lower() == "si"
+horario_laboral = input("¿El intento ocurre en Hoario laboral? (Si/No): ").lower() == "si"
+
+via_superusuario = (usuario == "root" and clave == "1234")
+
+via_estandar = (usuario != "root" and clave == clave_estandar_valida and ip_permitida and horario_laboral)
+
+if via_superusuario or via_estandar:
+    print("[ACCESS GRANTED] – Identidad verificada. Bienvenido al servidor central.")
+else:
+    print("[ACCESS DENIED] – Intrusión detectada o parámetros de red fuera de rango. IP reportada.")
